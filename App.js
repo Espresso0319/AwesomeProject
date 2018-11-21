@@ -6,17 +6,20 @@
  * @flow
  */
 
-import React, {Component} from 'react';
-import {StyleSheet, View, Text} from 'react-native';
-
+import React, { Component } from 'react';
+import { StyleSheet, View, Text } from 'react-native';
 
 type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.up}><Text>Blue</Text></View>
-        <View style={styles.bottom}><Text>Red</Text></View>
+        <View style={styles.up}>
+          <Text>Blue</Text>
+        </View>
+        <View style={styles.bottom}>
+          <Text>Red</Text>
+        </View>
       </View>
     );
   }
